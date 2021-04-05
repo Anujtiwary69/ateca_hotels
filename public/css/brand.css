@@ -1,0 +1,931 @@
+@font-face {
+    font-family: W Sans New;
+    src: url(//cache.marriott.com/aka-fonts/WHotels/WSansNew-Bold.eot);
+    src: url(//cache.marriott.com/aka-fonts/WHotels/WSansNew-Bold.eot#iefix) format("embedded-opentype"), url(//cache.marriott.com/aka-fonts/WHotels/WSansNew-Bold.woff) format("woff"), url(//cache.marriott.com/aka-fonts/WHotels/WSansNew-Bold.ttf) format("truetype"), url(//cache.marriott.com/aka-fonts/WHotels/WSansNew-Bold.svg) format("svg")
+}
+
+.b-fonts h1, .b-fonts h2, .b-tempT3 h1, .b-tempT3 h2 {
+    font-family: W Sans New, Helevtica, Arial, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase
+}
+
+.m-button-reserve-now {
+    background-color: transparent;
+    border: .0625rem solid #1c1c1c;
+    color: #1c1c1c
+}
+
+.m-button-reserve-now:hover {
+    background-color: #1c1c1c;
+    border-color: #1c1c1c;
+    color: #fff
+}
+
+.b-texture div.b-cs1, .b-texture div.b-cs2, .b-texture div.b-cs3, .b-texture div.b-cs4 {
+    background-color: transparent;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem
+}
+
+@media (min-width: 48.1rem),@media (min-width: 64.0625rem) {
+    .b-texture div.b-cs1, .b-texture div.b-cs2, .b-texture div.b-cs3, .b-texture div.b-cs4 {
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem
+    }
+}.b-cs1 h1, .b-cs1 h2, .b-cs2 h1, .b-cs2 h2, .b-cs3 h1, .b-cs3 h2, .b-cs4 h1, .b-cs4 h2 {
+    font-family: W Sans New, Helevtica, Arial, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase
+}
+
+    .b-cs1 .b-uiFillColor, .b-cs1 input[type=checkbox]:checked + label:before, .b-cs1 input[type=radio]:checked + label:before, .b-cs2 .b-uiFillColor, .b-cs2 input[type=checkbox]:checked + label:before, .b-cs2 input[type=radio]:checked + label:before, .b-cs3 .b-uiFillColor, .b-cs3 input[type=checkbox]:checked + label:before, .b-cs3 input[type=radio]:checked + label:before, .b-cs4 .b-uiFillColor, .b-cs4 input[type=checkbox]:checked + label:before, .b-cs4 input[type=radio]:checked + label:before {
+        background-color: #de0094;
+        border-color: #de0094
+    }
+
+    .b-cs1 .b-uiFillBorder, .b-cs2 .b-uiFillBorder, .b-cs3 .b-uiFillBorder, .b-cs4 .b-uiFillBorder {
+        border-color: #de0094
+    }
+
+    .b-cs1.tile-image-mosaic .slick-dots, .b-cs2.tile-image-mosaic .slick-dots, .b-cs3.tile-image-mosaic .slick-dots, .b-cs4.tile-image-mosaic .slick-dots {
+        margin-top: 0;
+        padding-top: .5rem
+    }
+
+    .b-cs1.mfp-hide, .b-cs2.mfp-hide, .b-cs3.mfp-hide, .b-cs4.mfp-hide {
+        background-color: inherit
+    }
+
+    .b-cs1 .tile-media-viewer-photos .l-photo__list li button.is-active, .b-cs1 .tile-media-viewer-photos .l-photo__list li button:hover, .b-cs1.tile-media-viewer-photos-modal.l-photo__list:not(.mfp-hide) li button.is-active, .b-cs1.tile-media-viewer-photos-modal.l-photo__list:not(.mfp-hide) li button:hover, .b-cs2 .tile-media-viewer-photos .l-photo__list li button.is-active, .b-cs2 .tile-media-viewer-photos .l-photo__list li button:hover, .b-cs2.tile-media-viewer-photos-modal.l-photo__list:not(.mfp-hide) li button.is-active, .b-cs2.tile-media-viewer-photos-modal.l-photo__list:not(.mfp-hide) li button:hover, .b-cs3 .tile-media-viewer-photos .l-photo__list li button.is-active, .b-cs3 .tile-media-viewer-photos .l-photo__list li button:hover, .b-cs3.tile-media-viewer-photos-modal.l-photo__list:not(.mfp-hide) li button.is-active, .b-cs3.tile-media-viewer-photos-modal.l-photo__list:not(.mfp-hide) li button:hover, .b-cs4 .tile-media-viewer-photos .l-photo__list li button.is-active, .b-cs4 .tile-media-viewer-photos .l-photo__list li button:hover, .b-cs4.tile-media-viewer-photos-modal.l-photo__list:not(.mfp-hide) li button.is-active, .b-cs4.tile-media-viewer-photos-modal.l-photo__list:not(.mfp-hide) li button:hover {
+        border-color: #de0094
+    }
+
+    .b-cs1 .tile-media-viewer-photos .l-photo__list li button.is-active, .b-cs1.tile-media-viewer-photos-modal.l-photo__list:not(.mfp-hide) li button.is-active, .b-cs2 .tile-media-viewer-photos .l-photo__list li button.is-active, .b-cs2.tile-media-viewer-photos-modal.l-photo__list:not(.mfp-hide) li button.is-active, .b-cs3 .tile-media-viewer-photos .l-photo__list li button.is-active, .b-cs3.tile-media-viewer-photos-modal.l-photo__list:not(.mfp-hide) li button.is-active, .b-cs4 .tile-media-viewer-photos .l-photo__list li button.is-active, .b-cs4.tile-media-viewer-photos-modal.l-photo__list:not(.mfp-hide) li button.is-active {
+        background-color: #de0094;
+        color: #fff
+    }
+
+    .b-cs1 .l-hsearch-2 .is-checked .l-s2-option, .b-cs1 .l-hsearch-2 .is-selected.l-s2-option, .b-cs1 .m-date-picker .picker__day.picker__day--selected, .b-cs1 .m-date-picker .t-date-end, .b-cs1 .m-date-picker .t-date-inrange, .b-cs1 .m-date-picker .t-date-start, .b-cs1.l-hsearch-2 .is-checked .l-s2-option, .b-cs1.l-hsearch-2 .is-selected.l-s2-option, .b-cs2 .l-hsearch-2 .is-checked .l-s2-option, .b-cs2 .l-hsearch-2 .is-selected.l-s2-option, .b-cs2 .m-date-picker .picker__day.picker__day--selected, .b-cs2 .m-date-picker .t-date-end, .b-cs2 .m-date-picker .t-date-inrange, .b-cs2 .m-date-picker .t-date-start, .b-cs2.l-hsearch-2 .is-checked .l-s2-option, .b-cs2.l-hsearch-2 .is-selected.l-s2-option, .b-cs3 .l-hsearch-2 .is-checked .l-s2-option, .b-cs3 .l-hsearch-2 .is-selected.l-s2-option, .b-cs3 .m-date-picker .picker__day.picker__day--selected, .b-cs3 .m-date-picker .t-date-end, .b-cs3 .m-date-picker .t-date-inrange, .b-cs3 .m-date-picker .t-date-start, .b-cs3.l-hsearch-2 .is-checked .l-s2-option, .b-cs3.l-hsearch-2 .is-selected.l-s2-option, .b-cs4 .l-hsearch-2 .is-checked .l-s2-option, .b-cs4 .l-hsearch-2 .is-selected.l-s2-option, .b-cs4 .m-date-picker .picker__day.picker__day--selected, .b-cs4 .m-date-picker .t-date-end, .b-cs4 .m-date-picker .t-date-inrange, .b-cs4 .m-date-picker .t-date-start, .b-cs4.l-hsearch-2 .is-checked .l-s2-option, .b-cs4.l-hsearch-2 .is-selected.l-s2-option {
+        background-color: #de0094
+    }
+
+    .b-cs1 .l-hsearch-2 .is-active > .l-h-field, .b-cs1 .l-hsearch-2 .l-h-field.is-active, .b-cs1 .l-hsearch-2 .l-h-field:focus, .b-cs1 .l-hsearch-2 .t-singlefield.is-active .l-toggle-active, .b-cs1 .l-toggle-active, .b-cs1 .m-date-picker .picker--focused .picker__day--highlighted, .b-cs1 .m-date-picker .picker__day:hover, .b-cs1 .m-date-picker .picker__input.picker__input--active, .b-cs1 .t-singlefield .l-toggle-active, .b-cs1 input[type=date]:focus, .b-cs1 input[type=email]:focus, .b-cs1 input[type=number]:focus, .b-cs1 input[type=password]:focus, .b-cs1 input[type=tel]:focus, .b-cs1 input[type=text]:focus, .b-cs1.l-hsearch-2 .is-active > .l-h-field, .b-cs1.l-hsearch-2 .l-h-field.is-active, .b-cs1.l-hsearch-2 .l-h-field:focus, .b-cs2 .l-hsearch-2 .is-active > .l-h-field, .b-cs2 .l-hsearch-2 .l-h-field.is-active, .b-cs2 .l-hsearch-2 .l-h-field:focus, .b-cs2 .l-hsearch-2 .t-singlefield.is-active .l-toggle-active, .b-cs2 .l-toggle-active, .b-cs2 .m-date-picker .picker--focused .picker__day--highlighted, .b-cs2 .m-date-picker .picker__day:hover, .b-cs2 .m-date-picker .picker__input.picker__input--active, .b-cs2 .t-singlefield .l-toggle-active, .b-cs2 input[type=date]:focus, .b-cs2 input[type=email]:focus, .b-cs2 input[type=number]:focus, .b-cs2 input[type=password]:focus, .b-cs2 input[type=tel]:focus, .b-cs2 input[type=text]:focus, .b-cs2.l-hsearch-2 .is-active > .l-h-field, .b-cs2.l-hsearch-2 .l-h-field.is-active, .b-cs2.l-hsearch-2 .l-h-field:focus, .b-cs3 .l-hsearch-2 .is-active > .l-h-field, .b-cs3 .l-hsearch-2 .l-h-field.is-active, .b-cs3 .l-hsearch-2 .l-h-field:focus, .b-cs3 .l-hsearch-2 .t-singlefield.is-active .l-toggle-active, .b-cs3 .l-toggle-active, .b-cs3 .m-date-picker .picker--focused .picker__day--highlighted, .b-cs3 .m-date-picker .picker__day:hover, .b-cs3 .m-date-picker .picker__input.picker__input--active, .b-cs3 .t-singlefield .l-toggle-active, .b-cs3 input[type=date]:focus, .b-cs3 input[type=email]:focus, .b-cs3 input[type=number]:focus, .b-cs3 input[type=password]:focus, .b-cs3 input[type=tel]:focus, .b-cs3 input[type=text]:focus, .b-cs3.l-hsearch-2 .is-active > .l-h-field, .b-cs3.l-hsearch-2 .l-h-field.is-active, .b-cs3.l-hsearch-2 .l-h-field:focus, .b-cs4 .l-hsearch-2 .is-active > .l-h-field, .b-cs4 .l-hsearch-2 .l-h-field.is-active, .b-cs4 .l-hsearch-2 .l-h-field:focus, .b-cs4 .l-hsearch-2 .t-singlefield.is-active .l-toggle-active, .b-cs4 .l-toggle-active, .b-cs4 .m-date-picker .picker--focused .picker__day--highlighted, .b-cs4 .m-date-picker .picker__day:hover, .b-cs4 .m-date-picker .picker__input.picker__input--active, .b-cs4 .t-singlefield .l-toggle-active, .b-cs4 input[type=date]:focus, .b-cs4 input[type=email]:focus, .b-cs4 input[type=number]:focus, .b-cs4 input[type=password]:focus, .b-cs4 input[type=tel]:focus, .b-cs4 input[type=text]:focus, .b-cs4.l-hsearch-2 .is-active > .l-h-field, .b-cs4.l-hsearch-2 .l-h-field.is-active, .b-cs4.l-hsearch-2 .l-h-field:focus {
+        border-color: #de0094
+    }
+
+    .b-cs1 input[readonly=readonly], .b-cs2 input[readonly=readonly], .b-cs3 input[readonly=readonly], .b-cs4 input[readonly=readonly] {
+        background: #f4f4f4;
+        color: #707070;
+        cursor: default
+    }
+
+    .b-cs1 input[readonly=readonly]:focus, .b-cs2 input[readonly=readonly]:focus, .b-cs3 input[readonly=readonly]:focus, .b-cs4 input[readonly=readonly]:focus {
+        border: .0625rem solid #d2d2d2;
+        outline: none
+    }
+
+    .b-cs1 .m-date-picker .picker--focused .picker__day--highlighted, .b-cs1 .m-date-picker .picker__day:hover, .b-cs2 .m-date-picker .picker--focused .picker__day--highlighted, .b-cs2 .m-date-picker .picker__day:hover, .b-cs3 .m-date-picker .picker--focused .picker__day--highlighted, .b-cs3 .m-date-picker .picker__day:hover, .b-cs4 .m-date-picker .picker--focused .picker__day--highlighted, .b-cs4 .m-date-picker .picker__day:hover {
+        background-color: #f4f4f4
+    }
+
+    .b-cs1 .m-date-picker .picker__day.picker__day--disabled, .b-cs2 .m-date-picker .picker__day.picker__day--disabled, .b-cs3 .m-date-picker .picker__day.picker__day--disabled, .b-cs4 .m-date-picker .picker__day.picker__day--disabled {
+        background-color: #fff
+    }
+
+    .b-cs1 a.t-alt-link, .b-cs2 a.t-alt-link, .b-cs3 a.t-alt-link, .b-cs4 a.t-alt-link {
+        color: inherit
+    }
+
+    .b-cs1 .t-range, .b-cs1 .t-range-limit:not(.t-hover-day), .b-cs2 .t-range, .b-cs2 .t-range-limit:not(.t-hover-day), .b-cs3 .t-range, .b-cs3 .t-range-limit:not(.t-hover-day), .b-cs4 .t-range, .b-cs4 .t-range-limit:not(.t-hover-day) {
+        background: #de0094;
+        color: #fff
+    }
+
+    .b-cs1 .t-range-limit.t-end:not(.t-hover-day), .b-cs1 .t-range-limit.t-start:not(.t-hover-day), .b-cs1 .t-range.t-end:not(.t-hover-day), .b-cs1 .t-range.t-start:not(.t-hover-day), .b-cs2 .t-range-limit.t-end:not(.t-hover-day), .b-cs2 .t-range-limit.t-start:not(.t-hover-day), .b-cs2 .t-range.t-end:not(.t-hover-day), .b-cs2 .t-range.t-start:not(.t-hover-day), .b-cs3 .t-range-limit.t-end:not(.t-hover-day), .b-cs3 .t-range-limit.t-start:not(.t-hover-day), .b-cs3 .t-range.t-end:not(.t-hover-day), .b-cs3 .t-range.t-start:not(.t-hover-day), .b-cs4 .t-range-limit.t-end:not(.t-hover-day), .b-cs4 .t-range-limit.t-start:not(.t-hover-day), .b-cs4 .t-range.t-end:not(.t-hover-day), .b-cs4 .t-range.t-start:not(.t-hover-day) {
+        background-color: #fff
+    }
+
+    .b-cs1 .t-range-limit.t-end.t-highlighted:not(.t-hover-day), .b-cs1 .t-range-limit.t-start.t-highlighted:not(.t-hover-day), .b-cs1 .t-range.t-end.t-highlighted:not(.t-hover-day), .b-cs1 .t-range.t-start.t-highlighted:not(.t-hover-day), .b-cs2 .t-range-limit.t-end.t-highlighted:not(.t-hover-day), .b-cs2 .t-range-limit.t-start.t-highlighted:not(.t-hover-day), .b-cs2 .t-range.t-end.t-highlighted:not(.t-hover-day), .b-cs2 .t-range.t-start.t-highlighted:not(.t-hover-day), .b-cs3 .t-range-limit.t-end.t-highlighted:not(.t-hover-day), .b-cs3 .t-range-limit.t-start.t-highlighted:not(.t-hover-day), .b-cs3 .t-range.t-end.t-highlighted:not(.t-hover-day), .b-cs3 .t-range.t-start.t-highlighted:not(.t-hover-day), .b-cs4 .t-range-limit.t-end.t-highlighted:not(.t-hover-day), .b-cs4 .t-range-limit.t-start.t-highlighted:not(.t-hover-day), .b-cs4 .t-range.t-end.t-highlighted:not(.t-hover-day), .b-cs4 .t-range.t-start.t-highlighted:not(.t-hover-day) {
+        background-color: #f4f4f4
+    }
+
+    .b-cs1 .t-hover-day-content, .b-cs1 .t-hover-day-content-desktop, .b-cs2 .t-hover-day-content, .b-cs2 .t-hover-day-content-desktop, .b-cs3 .t-hover-day-content, .b-cs3 .t-hover-day-content-desktop, .b-cs4 .t-hover-day-content, .b-cs4 .t-hover-day-content-desktop {
+        color: #000;
+        background: #fff;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2)
+    }
+
+    .b-cs1 .t-end .td-elem, .b-cs1 .t-start .td-elem, .b-cs2 .t-end .td-elem, .b-cs2 .t-start .td-elem, .b-cs3 .t-end .td-elem, .b-cs3 .t-start .td-elem, .b-cs4 .t-end .td-elem, .b-cs4 .t-start .td-elem {
+        background-color: #de0094;
+        color: #fff;
+        border-color: #de0094
+    }
+
+    .b-cs1 .t-end.t-range-limit:not(.t-hover-day) .td-elem:before, .b-cs1 .t-end:not(.t-hover-day) .td-elem:before, .b-cs1 .t-range-limit.t-hover-day .td-elem:before, .b-cs1 .t-start:not(.t-hover-day) .td-elem:before, .b-cs2 .t-end.t-range-limit:not(.t-hover-day) .td-elem:before, .b-cs2 .t-end:not(.t-hover-day) .td-elem:before, .b-cs2 .t-range-limit.t-hover-day .td-elem:before, .b-cs2 .t-start:not(.t-hover-day) .td-elem:before, .b-cs3 .t-end.t-range-limit:not(.t-hover-day) .td-elem:before, .b-cs3 .t-end:not(.t-hover-day) .td-elem:before, .b-cs3 .t-range-limit.t-hover-day .td-elem:before, .b-cs3 .t-start:not(.t-hover-day) .td-elem:before, .b-cs4 .t-end.t-range-limit:not(.t-hover-day) .td-elem:before, .b-cs4 .t-end:not(.t-hover-day) .td-elem:before, .b-cs4 .t-range-limit.t-hover-day .td-elem:before, .b-cs4 .t-start:not(.t-hover-day) .td-elem:before {
+        background-color: #de0094
+    }
+
+    .b-cs1 .only-checkin .t-start:not(.t-hover-day) .td-elem:before, .b-cs2 .only-checkin .t-start:not(.t-hover-day) .td-elem:before, .b-cs3 .only-checkin .t-start:not(.t-hover-day) .td-elem:before, .b-cs4 .only-checkin .t-start:not(.t-hover-day) .td-elem:before {
+        background-color: transparent
+    }
+
+    .b-cs1 .only-checkin .t-start.t-range-limit .td-elem:before, .b-cs1 .t-check-in .t-start.t-hover-day .td-elem:before, .b-cs1 .t-check-in .t-start.t-range-limit:not(.t-hover-day) .td-elem:before, .b-cs2 .only-checkin .t-start.t-range-limit .td-elem:before, .b-cs2 .t-check-in .t-start.t-hover-day .td-elem:before, .b-cs2 .t-check-in .t-start.t-range-limit:not(.t-hover-day) .td-elem:before, .b-cs3 .only-checkin .t-start.t-range-limit .td-elem:before, .b-cs3 .t-check-in .t-start.t-hover-day .td-elem:before, .b-cs3 .t-check-in .t-start.t-range-limit:not(.t-hover-day) .td-elem:before, .b-cs4 .only-checkin .t-start.t-range-limit .td-elem:before, .b-cs4 .t-check-in .t-start.t-hover-day .td-elem:before, .b-cs4 .t-check-in .t-start.t-range-limit:not(.t-hover-day) .td-elem:before {
+        background-color: #de0094
+    }
+
+    .b-cs1 .t-check-in .t-max-checkin.t-end.td-elem, .b-cs2 .t-check-in .t-max-checkin.t-end.td-elem, .b-cs3 .t-check-in .t-max-checkin.t-end.td-elem, .b-cs4 .t-check-in .t-max-checkin.t-end.td-elem {
+        background-color: #fff
+    }
+
+    .b-cs1 .t-check-in .t-max-checkin.t-end.t-highlighted .td-elem, .b-cs2 .t-check-in .t-max-checkin.t-end.t-highlighted .td-elem, .b-cs3 .t-check-in .t-max-checkin.t-end.t-highlighted .td-elem, .b-cs4 .t-check-in .t-max-checkin.t-end.t-highlighted .td-elem {
+        background-color: #f4f4f4
+    }
+
+    .b-cs1 .t-check-out td.t-range[t-disable-today=true] .td-elem, .b-cs1 .t-check-out td.t-range[t-disable-today=true] .td-elem:hover, .b-cs2 .t-check-out td.t-range[t-disable-today=true] .td-elem, .b-cs2 .t-check-out td.t-range[t-disable-today=true] .td-elem:hover, .b-cs3 .t-check-out td.t-range[t-disable-today=true] .td-elem, .b-cs3 .t-check-out td.t-range[t-disable-today=true] .td-elem:hover, .b-cs4 .t-check-out td.t-range[t-disable-today=true] .td-elem, .b-cs4 .t-check-out td.t-range[t-disable-today=true] .td-elem:hover {
+        background-color: #fff !important;
+        border-radius: 50%;
+        color: #707070;
+        border: 0 !important;
+        pointer-events: none
+    }
+
+    .b-cs1 .t-check-out .red-eye-container .td-elem, .b-cs2 .t-check-out .red-eye-container .td-elem, .b-cs3 .t-check-out .red-eye-container .td-elem, .b-cs4 .t-check-out .red-eye-container .td-elem {
+        border-color: transparent;
+        color: #707070;
+        background-color: #fff !important
+    }
+
+    .b-cs1 .t-check-out .red-eye-container.t-highlighted .td-elem, .b-cs2 .t-check-out .red-eye-container.t-highlighted .td-elem, .b-cs3 .t-check-out .red-eye-container.t-highlighted .td-elem, .b-cs4 .t-check-out .red-eye-container.t-highlighted .td-elem {
+        background-color: #f4f4f4 !important
+    }
+
+    .b-cs1 td:hover .td-elem, .b-cs2 td:hover .td-elem, .b-cs3 td:hover .td-elem, .b-cs4 td:hover .td-elem {
+        background-color: #f4f4f4;
+        color: #000;
+        border-color: #de0094
+    }
+
+    .b-cs1 .temp-hover, .b-cs2 .temp-hover, .b-cs3 .temp-hover, .b-cs4 .temp-hover {
+        color: #fff;
+        background: #de0094;
+        border-radius: 50%
+    }
+
+    .b-cs1 .js-flex-month:hover, .b-cs2 .js-flex-month:hover, .b-cs3 .js-flex-month:hover, .b-cs4 .js-flex-month:hover {
+        background: #de0094
+    }
+
+    .b-cs1 .l-hsearch-2 .flex-reset-button, .b-cs1.l-hsearch-2 .flex-reset-button, .b-cs2 .l-hsearch-2 .flex-reset-button, .b-cs2.l-hsearch-2 .flex-reset-button, .b-cs3 .l-hsearch-2 .flex-reset-button, .b-cs3.l-hsearch-2 .flex-reset-button, .b-cs4 .l-hsearch-2 .flex-reset-button, .b-cs4.l-hsearch-2 .flex-reset-button {
+        color: #d4008d
+    }
+
+    .b-cs1 .l-hsearch-2 .flex-reset-button:hover, .b-cs1.l-hsearch-2 .flex-reset-button:hover, .b-cs2 .l-hsearch-2 .flex-reset-button:hover, .b-cs2.l-hsearch-2 .flex-reset-button:hover, .b-cs3 .l-hsearch-2 .flex-reset-button:hover, .b-cs3.l-hsearch-2 .flex-reset-button:hover, .b-cs4 .l-hsearch-2 .flex-reset-button:hover, .b-cs4.l-hsearch-2 .flex-reset-button:hover {
+        text-decoration: underline
+    }
+
+    @media screen and (max-width: 64rem) {
+        .b-cs1 .l-date-picker:not(.associate-view) .checkin-focus .t-max-checkin.t-end .t-date-value, .b-cs2 .l-date-picker:not(.associate-view) .checkin-focus .t-max-checkin.t-end .t-date-value, .b-cs3 .l-date-picker:not(.associate-view) .checkin-focus .t-max-checkin.t-end .t-date-value, .b-cs4 .l-date-picker:not(.associate-view) .checkin-focus .t-max-checkin.t-end .t-date-value {
+            background-color: #fff
+        }
+
+        .b-cs1 .l-date-picker:not(.associate-view) .checkin-focus .t-max-checkin.t-highlighted .t-date-value, .b-cs2 .l-date-picker:not(.associate-view) .checkin-focus .t-max-checkin.t-highlighted .t-date-value, .b-cs3 .l-date-picker:not(.associate-view) .checkin-focus .t-max-checkin.t-highlighted .t-date-value, .b-cs4 .l-date-picker:not(.associate-view) .checkin-focus .t-max-checkin.t-highlighted .t-date-value {
+            background-color: #f4f4f4
+        }
+
+        .b-cs1 .l-date-picker:not(.associate-view) .checkout-focus td.t-range[t-disable-today=true] .t-date-value, .b-cs2 .l-date-picker:not(.associate-view) .checkout-focus td.t-range[t-disable-today=true] .t-date-value, .b-cs3 .l-date-picker:not(.associate-view) .checkout-focus td.t-range[t-disable-today=true] .t-date-value, .b-cs4 .l-date-picker:not(.associate-view) .checkout-focus td.t-range[t-disable-today=true] .t-date-value {
+            background-color: #fff !important;
+            border-radius: 50%;
+            color: #707070
+        }
+
+        .b-cs1 .l-date-picker:not(.associate-view) .checkout-focus td.t-range[t-disable-today=true]:after, .b-cs2 .l-date-picker:not(.associate-view) .checkout-focus td.t-range[t-disable-today=true]:after, .b-cs3 .l-date-picker:not(.associate-view) .checkout-focus td.t-range[t-disable-today=true]:after, .b-cs4 .l-date-picker:not(.associate-view) .checkout-focus td.t-range[t-disable-today=true]:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #de0094;
+            z-index: -1
+        }
+
+        .b-cs1 .l-date-picker:not(.associate-view) .t-check-in .t-end .t-date-value, .b-cs1 .l-date-picker:not(.associate-view) .t-check-out .t-start .t-date-value, .b-cs1 .l-date-picker:not(.associate-view) .t-check-out tr ~ .t-end .t-date-value, .b-cs1 .l-date-picker:not(.associate-view) .t-end .t-date-value, .b-cs1 .l-date-picker:not(.associate-view) .t-start .t-date-value, .b-cs2 .l-date-picker:not(.associate-view) .t-check-in .t-end .t-date-value, .b-cs2 .l-date-picker:not(.associate-view) .t-check-out .t-start .t-date-value, .b-cs2 .l-date-picker:not(.associate-view) .t-check-out tr ~ .t-end .t-date-value, .b-cs2 .l-date-picker:not(.associate-view) .t-end .t-date-value, .b-cs2 .l-date-picker:not(.associate-view) .t-start .t-date-value, .b-cs3 .l-date-picker:not(.associate-view) .t-check-in .t-end .t-date-value, .b-cs3 .l-date-picker:not(.associate-view) .t-check-out .t-start .t-date-value, .b-cs3 .l-date-picker:not(.associate-view) .t-check-out tr ~ .t-end .t-date-value, .b-cs3 .l-date-picker:not(.associate-view) .t-end .t-date-value, .b-cs3 .l-date-picker:not(.associate-view) .t-start .t-date-value, .b-cs4 .l-date-picker:not(.associate-view) .t-check-in .t-end .t-date-value, .b-cs4 .l-date-picker:not(.associate-view) .t-check-out .t-start .t-date-value, .b-cs4 .l-date-picker:not(.associate-view) .t-check-out tr ~ .t-end .t-date-value, .b-cs4 .l-date-picker:not(.associate-view) .t-end .t-date-value, .b-cs4 .l-date-picker:not(.associate-view) .t-start .t-date-value {
+            color: #fff;
+            background: #de0094;
+            border-radius: 50%
+        }
+
+        .b-cs1 .l-date-picker:not(.associate-view) .t-check-in .t-end, .b-cs1 .l-date-picker:not(.associate-view) .t-check-out .t-start, .b-cs1 .l-date-picker:not(.associate-view) .t-check-out tr ~ .t-end, .b-cs1 .l-date-picker:not(.associate-view) .t-end, .b-cs1 .l-date-picker:not(.associate-view) .t-end-limit, .b-cs1 .l-date-picker:not(.associate-view) .t-end.t-range-limit, .b-cs1 .l-date-picker:not(.associate-view) .t-hover-day, .b-cs1 .l-date-picker:not(.associate-view) .t-hover-day:hover, .b-cs1 .l-date-picker:not(.associate-view) .t-start, .b-cs2 .l-date-picker:not(.associate-view) .t-check-in .t-end, .b-cs2 .l-date-picker:not(.associate-view) .t-check-out .t-start, .b-cs2 .l-date-picker:not(.associate-view) .t-check-out tr ~ .t-end, .b-cs2 .l-date-picker:not(.associate-view) .t-end, .b-cs2 .l-date-picker:not(.associate-view) .t-end-limit, .b-cs2 .l-date-picker:not(.associate-view) .t-end.t-range-limit, .b-cs2 .l-date-picker:not(.associate-view) .t-hover-day, .b-cs2 .l-date-picker:not(.associate-view) .t-hover-day:hover, .b-cs2 .l-date-picker:not(.associate-view) .t-start, .b-cs3 .l-date-picker:not(.associate-view) .t-check-in .t-end, .b-cs3 .l-date-picker:not(.associate-view) .t-check-out .t-start, .b-cs3 .l-date-picker:not(.associate-view) .t-check-out tr ~ .t-end, .b-cs3 .l-date-picker:not(.associate-view) .t-end, .b-cs3 .l-date-picker:not(.associate-view) .t-end-limit, .b-cs3 .l-date-picker:not(.associate-view) .t-end.t-range-limit, .b-cs3 .l-date-picker:not(.associate-view) .t-hover-day, .b-cs3 .l-date-picker:not(.associate-view) .t-hover-day:hover, .b-cs3 .l-date-picker:not(.associate-view) .t-start, .b-cs4 .l-date-picker:not(.associate-view) .t-check-in .t-end, .b-cs4 .l-date-picker:not(.associate-view) .t-check-out .t-start, .b-cs4 .l-date-picker:not(.associate-view) .t-check-out tr ~ .t-end, .b-cs4 .l-date-picker:not(.associate-view) .t-end, .b-cs4 .l-date-picker:not(.associate-view) .t-end-limit, .b-cs4 .l-date-picker:not(.associate-view) .t-end.t-range-limit, .b-cs4 .l-date-picker:not(.associate-view) .t-hover-day, .b-cs4 .l-date-picker:not(.associate-view) .t-hover-day:hover, .b-cs4 .l-date-picker:not(.associate-view) .t-start {
+            color: #000;
+            background: transparent;
+            border: 0;
+            outline: 0
+        }
+
+        .b-cs1 .is-date-open.l-hsearch-2 .t-day.t-end:before, .b-cs1 .is-date-open.l-hsearch-2 .t-day.t-start + .t-disabled:before, .b-cs1 .is-date-open.l-hsearch-2 .t-day.t-start + .t-highlighted:before, .b-cs1 .is-date-open.l-hsearch-2 .t-day.t-start + .t-range:before, .b-cs1 .is-date-open.l-hsearch-2 .t-range + .t-max-checkin.t-end:before, .b-cs1 .is-date-open.l-hsearch-2 .t-start + .t-end:after, .b-cs1 .tile-hsearch.is-date-open .t-day.t-end:before, .b-cs1 .tile-hsearch.is-date-open .t-day.t-start + .t-disabled:before, .b-cs1 .tile-hsearch.is-date-open .t-day.t-start + .t-highlighted:before, .b-cs1 .tile-hsearch.is-date-open .t-day.t-start + .t-range:before, .b-cs1 .tile-hsearch.is-date-open .t-range + .t-max-checkin.t-end:before, .b-cs1 .tile-hsearch.is-date-open .t-start + .t-end:after, .b-cs2 .is-date-open.l-hsearch-2 .t-day.t-end:before, .b-cs2 .is-date-open.l-hsearch-2 .t-day.t-start + .t-disabled:before, .b-cs2 .is-date-open.l-hsearch-2 .t-day.t-start + .t-highlighted:before, .b-cs2 .is-date-open.l-hsearch-2 .t-day.t-start + .t-range:before, .b-cs2 .is-date-open.l-hsearch-2 .t-range + .t-max-checkin.t-end:before, .b-cs2 .is-date-open.l-hsearch-2 .t-start + .t-end:after, .b-cs2 .tile-hsearch.is-date-open .t-day.t-end:before, .b-cs2 .tile-hsearch.is-date-open .t-day.t-start + .t-disabled:before, .b-cs2 .tile-hsearch.is-date-open .t-day.t-start + .t-highlighted:before, .b-cs2 .tile-hsearch.is-date-open .t-day.t-start + .t-range:before, .b-cs2 .tile-hsearch.is-date-open .t-range + .t-max-checkin.t-end:before, .b-cs2 .tile-hsearch.is-date-open .t-start + .t-end:after, .b-cs3 .is-date-open.l-hsearch-2 .t-day.t-end:before, .b-cs3 .is-date-open.l-hsearch-2 .t-day.t-start + .t-disabled:before, .b-cs3 .is-date-open.l-hsearch-2 .t-day.t-start + .t-highlighted:before, .b-cs3 .is-date-open.l-hsearch-2 .t-day.t-start + .t-range:before, .b-cs3 .is-date-open.l-hsearch-2 .t-range + .t-max-checkin.t-end:before, .b-cs3 .is-date-open.l-hsearch-2 .t-start + .t-end:after, .b-cs3 .tile-hsearch.is-date-open .t-day.t-end:before, .b-cs3 .tile-hsearch.is-date-open .t-day.t-start + .t-disabled:before, .b-cs3 .tile-hsearch.is-date-open .t-day.t-start + .t-highlighted:before, .b-cs3 .tile-hsearch.is-date-open .t-day.t-start + .t-range:before, .b-cs3 .tile-hsearch.is-date-open .t-range + .t-max-checkin.t-end:before, .b-cs3 .tile-hsearch.is-date-open .t-start + .t-end:after, .b-cs4 .is-date-open.l-hsearch-2 .t-day.t-end:before, .b-cs4 .is-date-open.l-hsearch-2 .t-day.t-start + .t-disabled:before, .b-cs4 .is-date-open.l-hsearch-2 .t-day.t-start + .t-highlighted:before, .b-cs4 .is-date-open.l-hsearch-2 .t-day.t-start + .t-range:before, .b-cs4 .is-date-open.l-hsearch-2 .t-range + .t-max-checkin.t-end:before, .b-cs4 .is-date-open.l-hsearch-2 .t-start + .t-end:after, .b-cs4 .tile-hsearch.is-date-open .t-day.t-end:before, .b-cs4 .tile-hsearch.is-date-open .t-day.t-start + .t-disabled:before, .b-cs4 .tile-hsearch.is-date-open .t-day.t-start + .t-highlighted:before, .b-cs4 .tile-hsearch.is-date-open .t-day.t-start + .t-range:before, .b-cs4 .tile-hsearch.is-date-open .t-range + .t-max-checkin.t-end:before, .b-cs4 .tile-hsearch.is-date-open .t-start + .t-end:after {
+            background-color: #de0094
+        }
+
+        .b-cs1 .is-date-open.l-hsearch-2 .t-day.t-highlighted.t-start:after, .b-cs1 .is-date-open.l-hsearch-2 .t-day.t-highlighted.t-start:before, .b-cs1 .is-date-open.l-hsearch-2 .t-day.t-start + .t-end.t-highlighted:after, .b-cs1 .is-date-open.l-hsearch-2 .t-highlighted.t-end:after, .b-cs1 .tile-hsearch.is-date-open .t-day.t-highlighted.t-start:after, .b-cs1 .tile-hsearch.is-date-open .t-day.t-highlighted.t-start:before, .b-cs1 .tile-hsearch.is-date-open .t-day.t-start + .t-end.t-highlighted:after, .b-cs1 .tile-hsearch.is-date-open .t-highlighted.t-end:after, .b-cs2 .is-date-open.l-hsearch-2 .t-day.t-highlighted.t-start:after, .b-cs2 .is-date-open.l-hsearch-2 .t-day.t-highlighted.t-start:before, .b-cs2 .is-date-open.l-hsearch-2 .t-day.t-start + .t-end.t-highlighted:after, .b-cs2 .is-date-open.l-hsearch-2 .t-highlighted.t-end:after, .b-cs2 .tile-hsearch.is-date-open .t-day.t-highlighted.t-start:after, .b-cs2 .tile-hsearch.is-date-open .t-day.t-highlighted.t-start:before, .b-cs2 .tile-hsearch.is-date-open .t-day.t-start + .t-end.t-highlighted:after, .b-cs2 .tile-hsearch.is-date-open .t-highlighted.t-end:after, .b-cs3 .is-date-open.l-hsearch-2 .t-day.t-highlighted.t-start:after, .b-cs3 .is-date-open.l-hsearch-2 .t-day.t-highlighted.t-start:before, .b-cs3 .is-date-open.l-hsearch-2 .t-day.t-start + .t-end.t-highlighted:after, .b-cs3 .is-date-open.l-hsearch-2 .t-highlighted.t-end:after, .b-cs3 .tile-hsearch.is-date-open .t-day.t-highlighted.t-start:after, .b-cs3 .tile-hsearch.is-date-open .t-day.t-highlighted.t-start:before, .b-cs3 .tile-hsearch.is-date-open .t-day.t-start + .t-end.t-highlighted:after, .b-cs3 .tile-hsearch.is-date-open .t-highlighted.t-end:after, .b-cs4 .is-date-open.l-hsearch-2 .t-day.t-highlighted.t-start:after, .b-cs4 .is-date-open.l-hsearch-2 .t-day.t-highlighted.t-start:before, .b-cs4 .is-date-open.l-hsearch-2 .t-day.t-start + .t-end.t-highlighted:after, .b-cs4 .is-date-open.l-hsearch-2 .t-highlighted.t-end:after, .b-cs4 .tile-hsearch.is-date-open .t-day.t-highlighted.t-start:after, .b-cs4 .tile-hsearch.is-date-open .t-day.t-highlighted.t-start:before, .b-cs4 .tile-hsearch.is-date-open .t-day.t-start + .t-end.t-highlighted:after, .b-cs4 .tile-hsearch.is-date-open .t-highlighted.t-end:after {
+            background: #f4f4f4
+        }
+
+        .b-cs1 .is-date-open.l-hsearch-2 .t-day.t-highlighted.t-start:after, .b-cs1 .tile-hsearch.is-date-open .t-day.t-highlighted.t-start:after, .b-cs2 .is-date-open.l-hsearch-2 .t-day.t-highlighted.t-start:after, .b-cs2 .tile-hsearch.is-date-open .t-day.t-highlighted.t-start:after, .b-cs3 .is-date-open.l-hsearch-2 .t-day.t-highlighted.t-start:after, .b-cs3 .tile-hsearch.is-date-open .t-day.t-highlighted.t-start:after, .b-cs4 .is-date-open.l-hsearch-2 .t-day.t-highlighted.t-start:after, .b-cs4 .tile-hsearch.is-date-open .t-day.t-highlighted.t-start:after {
+            background: #de0094
+        }
+
+        .b-cs1 .is-date-open.l-hsearch-2.only-checkin .t-day.t-highlighted.t-start:after, .b-cs1 .tile-hsearch.is-date-open.only-checkin .t-day.t-highlighted.t-start:after, .b-cs2 .is-date-open.l-hsearch-2.only-checkin .t-day.t-highlighted.t-start:after, .b-cs2 .tile-hsearch.is-date-open.only-checkin .t-day.t-highlighted.t-start:after, .b-cs3 .is-date-open.l-hsearch-2.only-checkin .t-day.t-highlighted.t-start:after, .b-cs3 .tile-hsearch.is-date-open.only-checkin .t-day.t-highlighted.t-start:after, .b-cs4 .is-date-open.l-hsearch-2.only-checkin .t-day.t-highlighted.t-start:after, .b-cs4 .tile-hsearch.is-date-open.only-checkin .t-day.t-highlighted.t-start:after {
+            background-color: #f4f4f4
+        }
+
+        .b-cs1 .is-date-open.l-hsearch-2.only-checkin .t-day.t-start + .t-highlighted:before, .b-cs1 .tile-hsearch.is-date-open.only-checkin .t-day.t-start + .t-highlighted:before, .b-cs2 .is-date-open.l-hsearch-2.only-checkin .t-day.t-start + .t-highlighted:before, .b-cs2 .tile-hsearch.is-date-open.only-checkin .t-day.t-start + .t-highlighted:before, .b-cs3 .is-date-open.l-hsearch-2.only-checkin .t-day.t-start + .t-highlighted:before, .b-cs3 .tile-hsearch.is-date-open.only-checkin .t-day.t-start + .t-highlighted:before, .b-cs4 .is-date-open.l-hsearch-2.only-checkin .t-day.t-start + .t-highlighted:before, .b-cs4 .tile-hsearch.is-date-open.only-checkin .t-day.t-start + .t-highlighted:before {
+            width: 0
+        }
+
+        .b-cs1 .is-date-open.l-hsearch-2 td:not(.t-start):not(.t-end):not(.t-range):hover, .b-cs1 .tile-hsearch.is-date-open td:not(.t-start):not(.t-end):not(.t-range):hover, .b-cs2 .is-date-open.l-hsearch-2 td:not(.t-start):not(.t-end):not(.t-range):hover, .b-cs2 .tile-hsearch.is-date-open td:not(.t-start):not(.t-end):not(.t-range):hover, .b-cs3 .is-date-open.l-hsearch-2 td:not(.t-start):not(.t-end):not(.t-range):hover, .b-cs3 .tile-hsearch.is-date-open td:not(.t-start):not(.t-end):not(.t-range):hover, .b-cs4 .is-date-open.l-hsearch-2 td:not(.t-start):not(.t-end):not(.t-range):hover, .b-cs4 .tile-hsearch.is-date-open td:not(.t-start):not(.t-end):not(.t-range):hover {
+            color: #000;
+            background: transparent;
+            border-radius: 50%;
+            outline: none
+        }
+    }@media screen and (max-width: 47.9rem) {
+    .b-cs1 .t-check-in .t-end:hover, .b-cs2 .t-check-in .t-end:hover, .b-cs3 .t-check-in .t-end:hover, .b-cs4 .t-check-in .t-end:hover {
+        background-color: #de0094
+    }
+}.b-cs3 a, .b-cs4 a {
+     text-decoration: underline
+ }
+
+    .b-cs3 .b-visualNavigationBlock, .b-cs3 .m-button-primary, .b-cs3 .m-button-primary-medium, .b-cs3 .m-button-secondary, .b-cs3 .m-button-secondary-large, .b-cs3 .m-button-secondary-medium, .b-cs4 .b-visualNavigationBlock, .b-cs4 .m-button-primary, .b-cs4 .m-button-primary-medium, .b-cs4 .m-button-secondary, .b-cs4 .m-button-secondary-large, .b-cs4 .m-button-secondary-medium {
+        text-decoration: none
+    }
+
+    .b-cs1 {
+        background-color: #fff
+    }
+
+    .b-cs1, .b-cs1 .m-arrows-container button, .b-cs1 h1, .b-cs1 h2, .b-cs1 h3, .b-cs1 h4, .b-cs1 h5, .b-cs1 h6, .b-cs1 li, .b-cs1 p, .b-cs1.mi-accordion button {
+        color: #1c1c1c
+    }
+
+    .b-cs1 .b-linkColor, .b-cs1 .selectric-items li.highlighted, .b-cs1 .selectric-items li.selected, .b-cs1 .selectric-items li:hover, .b-cs1 .tabs, .b-cs1 .tabs.selected, .b-cs1 .tabs:hover, .b-cs1 a, .b-cs1 a.t-alt-link:hover {
+        color: #d4008d
+    }
+
+    .b-cs1 .b-regularRuleColor, .b-cs1 .l-list-section + .l-list-section.b-regularRuleColor, .b-cs1 ul li.b-regularRuleColor, .b-cs1.mi-accordion .l-accordion-content {
+        border-color: #d2d2d2
+    }
+
+    .b-cs1 .slick-slider .slick-dots li, .b-cs1 hr.b-regularRuleColor {
+        background-color: #d2d2d2
+    }
+
+    .b-cs1 .b-cardBackgroundColor, .b-cs1.tile-image-mosaic .slick-dots, .b-cs1.tile-imageTextCta-carousel-container .t-media-text {
+        background-color: #f4f4f4
+    }
+
+    @media (min-width: 48.1rem),@media (min-width: 64.0625rem) {
+        .b-cs1 .b-cardBackgroundColorDesktopOnly {
+            background-color: #f4f4f4
+        }
+    }.b-cs1 .b-visualNavigationBlock {
+        background-color: #de0094
+    }
+
+        .b-cs1 .b-visualNavigationBlock h3 {
+            color: #fff
+        }
+
+        .b-cs1 .m-button-primary, .b-cs1 .m-button-primary-medium {
+            background-color: #de0094;
+            color: #fff;
+            border-color: #de0094
+        }
+
+        .b-cs1 .m-button-primary-medium:hover, .b-cs1 .m-button-primary:hover {
+            border-color: rgba(0, 0, 0, .2);
+            box-shadow: inset 9999px 9999px rgba(0, 0, 0, .2)
+        }
+
+        .b-cs1 .m-button-secondary, .b-cs1 .m-button-secondary-large, .b-cs1 .m-button-secondary-medium {
+            border-color: #1c1c1c;
+            color: #1c1c1c;
+            background-color: transparent
+        }
+
+        .b-cs1 .m-button-secondary-large:hover, .b-cs1 .m-button-secondary-medium:hover, .b-cs1 .m-button-secondary:hover {
+            background-color: #1c1c1c;
+            border-color: #1c1c1c;
+            color: #fff
+        }
+
+        .b-cs1 .b-iconColor, .b-cs1 .t-icon-color-brand, .b-cs1 .tile-map-whats-nearby .l-marker-content.is-active, .b-cs1 .tile-map-whats-nearby .l-marker-content.is-hotel-pin, .b-cs1 .tile-map-whats-nearby .l-marker-content:hover {
+            color: #ff06ac
+        }
+
+        .b-cs1.t-border-bottom-thin-brand {
+            border-bottom: .0625rem solid #ff06ac
+        }
+
+        .b-cs1.t-border-top-thick-brand {
+            border-top: .3125rem solid #ff06ac
+        }
+
+        .b-cs1 .b-accentColor {
+            color: #ff06ac
+        }
+
+        .b-cs1 .slick-slider .slick-dots li.slick-active, .b-cs1 hr.b-accentColor {
+            background-color: #ff06ac
+        }
+
+        .b-cs1.m-chapter-navigation {
+            background-color: transparent
+        }
+
+        .b-cs1.m-chapter-navigation.fade-in {
+            background-color: #f4f4f4
+        }
+
+        .b-cs1.m-chapter-navigation.fade-in .t-nav-link {
+            color: #1c1c1c
+        }
+
+        .b-cs1.m-chapter-navigation .t-nav-item.active:after, .b-cs1.m-chapter-navigation .t-nav-item:hover:after {
+            background-color: #ff06ac
+        }
+
+        .b-cs1 .m-ratings span {
+            background-image: linear-gradient(0deg, #ff06ac 100%, transparent 0);
+            border-color: #ff06ac;
+            box-shadow: inset .02rem 0 0 .02rem #ff06ac
+        }
+
+        .b-cs1 .m-ratings[data-rating*=".1"] span:before {
+            background-image: linear-gradient(-270deg, #ff06ac 10%, transparent 0)
+        }
+
+        .b-cs1 .m-ratings[data-rating*=".2"] span:before {
+            background-image: linear-gradient(-270deg, #ff06ac 20%, transparent 0)
+        }
+
+        .b-cs1 .m-ratings[data-rating*=".3"] span:before {
+            background-image: linear-gradient(-270deg, #ff06ac 30%, transparent 0)
+        }
+
+        .b-cs1 .m-ratings[data-rating*=".4"] span:before {
+            background-image: linear-gradient(-270deg, #ff06ac 40%, transparent 0)
+        }
+
+        .b-cs1 .m-ratings[data-rating*=".5"] span:before {
+            background-image: linear-gradient(-270deg, #ff06ac 50%, transparent 0)
+        }
+
+        .b-cs1 .m-ratings[data-rating*=".6"] span:before {
+            background-image: linear-gradient(-270deg, #ff06ac 60%, transparent 0)
+        }
+
+        .b-cs1 .m-ratings[data-rating*=".7"] span:before {
+            background-image: linear-gradient(-270deg, #ff06ac 70%, transparent 0)
+        }
+
+        .b-cs1 .m-ratings[data-rating*=".8"] span:before {
+            background-image: linear-gradient(-270deg, #ff06ac 80%, transparent 0)
+        }
+
+        .b-cs1 .m-ratings[data-rating*=".9"] span:before {
+            background-image: linear-gradient(-270deg, #ff06ac 90%, transparent 0)
+        }
+
+        .b-cs1 .m-merch-shape-5:after, .b-cs1 .m-merch-shape-6-horizontal, .b-cs1 .m-merch-shape-6-vertical {
+            background: #de0094
+        }
+
+        .b-cs2 {
+            background-color: #f4f4f4
+        }
+
+        .b-cs2, .b-cs2 .m-arrows-container button, .b-cs2 h1, .b-cs2 h2, .b-cs2 h3, .b-cs2 h4, .b-cs2 h5, .b-cs2 h6, .b-cs2 li, .b-cs2 p, .b-cs2.mi-accordion button {
+            color: #1c1c1c
+        }
+
+        .b-cs2 .b-linkColor, .b-cs2 .selectric-items li.highlighted, .b-cs2 .selectric-items li.selected, .b-cs2 .selectric-items li:hover, .b-cs2 .tabs, .b-cs2 .tabs.selected, .b-cs2 .tabs:hover, .b-cs2 a, .b-cs2 a.t-alt-link:hover {
+            color: #d4008d
+        }
+
+        .b-cs2 .b-regularRuleColor, .b-cs2 .l-list-section + .l-list-section.b-regularRuleColor, .b-cs2 ul li.b-regularRuleColor, .b-cs2.mi-accordion .l-accordion-content {
+            border-color: #d2d2d2
+        }
+
+        .b-cs2 .slick-slider .slick-dots li, .b-cs2 hr.b-regularRuleColor {
+            background-color: #d2d2d2
+        }
+
+        .b-cs2 .b-cardBackgroundColor, .b-cs2.tile-image-mosaic .slick-dots, .b-cs2.tile-imageTextCta-carousel-container .t-media-text {
+            background-color: #fff
+        }
+
+        @media (min-width: 48.1rem),@media (min-width: 64.0625rem) {
+            .b-cs2 .b-cardBackgroundColorDesktopOnly {
+                background-color: #fff
+            }
+        }.b-cs2 .b-visualNavigationBlock {
+            background-color: #de0094
+        }
+
+            .b-cs2 .b-visualNavigationBlock h3 {
+                color: #fff
+            }
+
+            .b-cs2 .m-button-primary, .b-cs2 .m-button-primary-medium {
+                background-color: #de0094;
+                color: #fff;
+                border-color: #de0094
+            }
+
+            .b-cs2 .m-button-primary-medium:hover, .b-cs2 .m-button-primary:hover {
+                border-color: rgba(0, 0, 0, .2);
+                box-shadow: inset 9999px 9999px rgba(0, 0, 0, .2)
+            }
+
+            .b-cs2 .m-button-secondary, .b-cs2 .m-button-secondary-large, .b-cs2 .m-button-secondary-medium {
+                border-color: #1c1c1c;
+                color: #1c1c1c;
+                background-color: transparent
+            }
+
+            .b-cs2 .m-button-secondary-large:hover, .b-cs2 .m-button-secondary-medium:hover, .b-cs2 .m-button-secondary:hover {
+                background-color: #1c1c1c;
+                border-color: #1c1c1c;
+                color: #fff
+            }
+
+            .b-cs2 .b-iconColor, .b-cs2 .t-icon-color-brand, .b-cs2 .tile-map-whats-nearby .l-marker-content.is-active, .b-cs2 .tile-map-whats-nearby .l-marker-content.is-hotel-pin, .b-cs2 .tile-map-whats-nearby .l-marker-content:hover {
+                color: #ff06ac
+            }
+
+            .b-cs2.t-border-bottom-thin-brand {
+                border-bottom: .0625rem solid #ff06ac
+            }
+
+            .b-cs2.t-border-top-thick-brand {
+                border-top: .3125rem solid #ff06ac
+            }
+
+            .b-cs2 .b-accentColor {
+                color: #ff06ac
+            }
+
+            .b-cs2 .slick-slider .slick-dots li.slick-active, .b-cs2 hr.b-accentColor {
+                background-color: #ff06ac
+            }
+
+            .b-cs2.m-chapter-navigation {
+                background-color: transparent
+            }
+
+            .b-cs2.m-chapter-navigation.fade-in {
+                background-color: #fff
+            }
+
+            .b-cs2.m-chapter-navigation.fade-in .t-nav-link {
+                color: #1c1c1c
+            }
+
+            .b-cs2.m-chapter-navigation .t-nav-item.active:after, .b-cs2.m-chapter-navigation .t-nav-item:hover:after {
+                background-color: #ff06ac
+            }
+
+            .b-cs2 .m-ratings span {
+                background-image: linear-gradient(0deg, #ff06ac 100%, transparent 0);
+                border-color: #ff06ac;
+                box-shadow: inset .02rem 0 0 .02rem #ff06ac
+            }
+
+            .b-cs2 .m-ratings[data-rating*=".1"] span:before {
+                background-image: linear-gradient(-270deg, #ff06ac 10%, transparent 0)
+            }
+
+            .b-cs2 .m-ratings[data-rating*=".2"] span:before {
+                background-image: linear-gradient(-270deg, #ff06ac 20%, transparent 0)
+            }
+
+            .b-cs2 .m-ratings[data-rating*=".3"] span:before {
+                background-image: linear-gradient(-270deg, #ff06ac 30%, transparent 0)
+            }
+
+            .b-cs2 .m-ratings[data-rating*=".4"] span:before {
+                background-image: linear-gradient(-270deg, #ff06ac 40%, transparent 0)
+            }
+
+            .b-cs2 .m-ratings[data-rating*=".5"] span:before {
+                background-image: linear-gradient(-270deg, #ff06ac 50%, transparent 0)
+            }
+
+            .b-cs2 .m-ratings[data-rating*=".6"] span:before {
+                background-image: linear-gradient(-270deg, #ff06ac 60%, transparent 0)
+            }
+
+            .b-cs2 .m-ratings[data-rating*=".7"] span:before {
+                background-image: linear-gradient(-270deg, #ff06ac 70%, transparent 0)
+            }
+
+            .b-cs2 .m-ratings[data-rating*=".8"] span:before {
+                background-image: linear-gradient(-270deg, #ff06ac 80%, transparent 0)
+            }
+
+            .b-cs2 .m-ratings[data-rating*=".9"] span:before {
+                background-image: linear-gradient(-270deg, #ff06ac 90%, transparent 0)
+            }
+
+            .b-cs2 .m-merch-shape-5:after, .b-cs2 .m-merch-shape-6-horizontal, .b-cs2 .m-merch-shape-6-vertical {
+                background: #de0094
+            }
+
+            .b-cs3 {
+                background-color: #f4f4f4
+            }
+
+            .b-cs3, .b-cs3 .m-arrows-container button, .b-cs3 h1, .b-cs3 h2, .b-cs3 h3, .b-cs3 h4, .b-cs3 h5, .b-cs3 h6, .b-cs3 li, .b-cs3 p, .b-cs3.mi-accordion button {
+                color: #1c1c1c
+            }
+
+            .b-cs3 .b-linkColor, .b-cs3 .selectric-items li.highlighted, .b-cs3 .selectric-items li.selected, .b-cs3 .selectric-items li:hover, .b-cs3 .tabs, .b-cs3 .tabs.selected, .b-cs3 .tabs:hover, .b-cs3 a, .b-cs3 a.t-alt-link:hover {
+                color: #d4008d
+            }
+
+            .b-cs3 .b-regularRuleColor, .b-cs3 .l-list-section + .l-list-section.b-regularRuleColor, .b-cs3 ul li.b-regularRuleColor, .b-cs3.mi-accordion .l-accordion-content {
+                border-color: #d2d2d2
+            }
+
+            .b-cs3 .slick-slider .slick-dots li, .b-cs3 hr.b-regularRuleColor {
+                background-color: #d2d2d2
+            }
+
+            .b-cs3 .b-cardBackgroundColor, .b-cs3.tile-image-mosaic .slick-dots, .b-cs3.tile-imageTextCta-carousel-container .t-media-text {
+                background-color: #fff
+            }
+
+            @media (min-width: 48.1rem),@media (min-width: 64.0625rem) {
+                .b-cs3 .b-cardBackgroundColorDesktopOnly {
+                    background-color: #fff
+                }
+            }.b-cs3 .b-visualNavigationBlock {
+                background-color: #de0094
+            }
+
+                .b-cs3 .b-visualNavigationBlock h3 {
+                    color: #fff
+                }
+
+                .b-cs3 .m-button-primary, .b-cs3 .m-button-primary-medium {
+                    background-color: #de0094;
+                    color: #fff;
+                    border-color: #de0094
+                }
+
+                .b-cs3 .m-button-primary-medium:hover, .b-cs3 .m-button-primary:hover {
+                    border-color: rgba(0, 0, 0, .2);
+                    box-shadow: inset 9999px 9999px rgba(0, 0, 0, .2)
+                }
+
+                .b-cs3 .m-button-secondary, .b-cs3 .m-button-secondary-large, .b-cs3 .m-button-secondary-medium {
+                    border-color: #1c1c1c;
+                    color: #1c1c1c;
+                    background-color: transparent
+                }
+
+                .b-cs3 .m-button-secondary-large:hover, .b-cs3 .m-button-secondary-medium:hover, .b-cs3 .m-button-secondary:hover {
+                    background-color: #1c1c1c;
+                    border-color: #1c1c1c;
+                    color: #fff
+                }
+
+                .b-cs3 .b-iconColor, .b-cs3 .t-icon-color-brand, .b-cs3 .tile-map-whats-nearby .l-marker-content.is-active, .b-cs3 .tile-map-whats-nearby .l-marker-content.is-hotel-pin, .b-cs3 .tile-map-whats-nearby .l-marker-content:hover {
+                    color: #ff06ac
+                }
+
+                .b-cs3.t-border-bottom-thin-brand {
+                    border-bottom: .0625rem solid #ff06ac
+                }
+
+                .b-cs3.t-border-top-thick-brand {
+                    border-top: .3125rem solid #ff06ac
+                }
+
+                .b-cs3 .b-accentColor {
+                    color: #ff06ac
+                }
+
+                .b-cs3 .slick-slider .slick-dots li.slick-active, .b-cs3 hr.b-accentColor {
+                    background-color: #ff06ac
+                }
+
+                .b-cs3.m-chapter-navigation {
+                    background-color: transparent
+                }
+
+                .b-cs3.m-chapter-navigation.fade-in {
+                    background-color: #fff
+                }
+
+                .b-cs3.m-chapter-navigation.fade-in .t-nav-link {
+                    color: #1c1c1c;
+                    text-decoration: none
+                }
+
+                .b-cs3.m-chapter-navigation .t-nav-item.active:after, .b-cs3.m-chapter-navigation .t-nav-item:hover:after {
+                    background-color: #ff06ac
+                }
+
+                .b-cs3 .m-ratings span {
+                    background-image: linear-gradient(0deg, #ff06ac 100%, transparent 0);
+                    border-color: #ff06ac;
+                    box-shadow: inset .02rem 0 0 .02rem #ff06ac
+                }
+
+                .b-cs3 .m-ratings[data-rating*=".1"] span:before {
+                    background-image: linear-gradient(-270deg, #ff06ac 10%, transparent 0)
+                }
+
+                .b-cs3 .m-ratings[data-rating*=".2"] span:before {
+                    background-image: linear-gradient(-270deg, #ff06ac 20%, transparent 0)
+                }
+
+                .b-cs3 .m-ratings[data-rating*=".3"] span:before {
+                    background-image: linear-gradient(-270deg, #ff06ac 30%, transparent 0)
+                }
+
+                .b-cs3 .m-ratings[data-rating*=".4"] span:before {
+                    background-image: linear-gradient(-270deg, #ff06ac 40%, transparent 0)
+                }
+
+                .b-cs3 .m-ratings[data-rating*=".5"] span:before {
+                    background-image: linear-gradient(-270deg, #ff06ac 50%, transparent 0)
+                }
+
+                .b-cs3 .m-ratings[data-rating*=".6"] span:before {
+                    background-image: linear-gradient(-270deg, #ff06ac 60%, transparent 0)
+                }
+
+                .b-cs3 .m-ratings[data-rating*=".7"] span:before {
+                    background-image: linear-gradient(-270deg, #ff06ac 70%, transparent 0)
+                }
+
+                .b-cs3 .m-ratings[data-rating*=".8"] span:before {
+                    background-image: linear-gradient(-270deg, #ff06ac 80%, transparent 0)
+                }
+
+                .b-cs3 .m-ratings[data-rating*=".9"] span:before {
+                    background-image: linear-gradient(-270deg, #ff06ac 90%, transparent 0)
+                }
+
+                .b-cs3 .m-merch-shape-5:after, .b-cs3 .m-merch-shape-6-horizontal, .b-cs3 .m-merch-shape-6-vertical {
+                    background: #de0094
+                }
+
+                .b-cs4 {
+                    background-color: #f4f4f4
+                }
+
+                .b-cs4, .b-cs4 .m-arrows-container button, .b-cs4 h1, .b-cs4 h2, .b-cs4 h3, .b-cs4 h4, .b-cs4 h5, .b-cs4 h6, .b-cs4 li, .b-cs4 p, .b-cs4.mi-accordion button {
+                    color: #1c1c1c
+                }
+
+                .b-cs4 .b-linkColor, .b-cs4 .selectric-items li.highlighted, .b-cs4 .selectric-items li.selected, .b-cs4 .selectric-items li:hover, .b-cs4 .tabs, .b-cs4 .tabs.selected, .b-cs4 .tabs:hover, .b-cs4 a, .b-cs4 a.t-alt-link:hover {
+                    color: #d4008d
+                }
+
+                .b-cs4 .b-regularRuleColor, .b-cs4 .l-list-section + .l-list-section.b-regularRuleColor, .b-cs4 ul li.b-regularRuleColor, .b-cs4.mi-accordion .l-accordion-content {
+                    border-color: #d2d2d2
+                }
+
+                .b-cs4 .slick-slider .slick-dots li, .b-cs4 hr.b-regularRuleColor {
+                    background-color: #d2d2d2
+                }
+
+                .b-cs4 .b-cardBackgroundColor, .b-cs4.tile-image-mosaic .slick-dots, .b-cs4.tile-imageTextCta-carousel-container .t-media-text {
+                    background-color: #fff
+                }
+
+                @media (min-width: 48.1rem),@media (min-width: 64.0625rem) {
+                    .b-cs4 .b-cardBackgroundColorDesktopOnly {
+                        background-color: #fff
+                    }
+                }.b-cs4 .b-visualNavigationBlock {
+                    background-color: #de0094
+                }
+
+                    .b-cs4 .b-visualNavigationBlock h3 {
+                        color: #fff
+                    }
+
+                    .b-cs4 .m-button-primary, .b-cs4 .m-button-primary-medium {
+                        background-color: #de0094;
+                        color: #fff;
+                        border-color: #de0094
+                    }
+
+                    .b-cs4 .m-button-primary-medium:hover, .b-cs4 .m-button-primary:hover {
+                        border-color: rgba(0, 0, 0, .2);
+                        box-shadow: inset 9999px 9999px rgba(0, 0, 0, .2)
+                    }
+
+                    .b-cs4 .m-button-secondary, .b-cs4 .m-button-secondary-large, .b-cs4 .m-button-secondary-medium {
+                        border-color: #1c1c1c;
+                        color: #1c1c1c;
+                        background-color: transparent
+                    }
+
+                    .b-cs4 .m-button-secondary-large:hover, .b-cs4 .m-button-secondary-medium:hover, .b-cs4 .m-button-secondary:hover {
+                        background-color: #1c1c1c;
+                        border-color: #1c1c1c;
+                        color: #fff
+                    }
+
+                    .b-cs4 .b-iconColor, .b-cs4 .t-icon-color-brand, .b-cs4 .tile-map-whats-nearby .l-marker-content.is-active, .b-cs4 .tile-map-whats-nearby .l-marker-content.is-hotel-pin, .b-cs4 .tile-map-whats-nearby .l-marker-content:hover {
+                        color: #ff06ac
+                    }
+
+                    .b-cs4.t-border-bottom-thin-brand {
+                        border-bottom: .0625rem solid #ff06ac
+                    }
+
+                    .b-cs4.t-border-top-thick-brand {
+                        border-top: .3125rem solid #ff06ac
+                    }
+
+                    .b-cs4 .b-accentColor {
+                        color: #ff06ac
+                    }
+
+                    .b-cs4 .slick-slider .slick-dots li.slick-active, .b-cs4 hr.b-accentColor {
+                        background-color: #ff06ac
+                    }
+
+                    .b-cs4.m-chapter-navigation {
+                        background-color: transparent
+                    }
+
+                    .b-cs4.m-chapter-navigation.fade-in {
+                        background-color: #fff
+                    }
+
+                    .b-cs4.m-chapter-navigation.fade-in .t-nav-link {
+                        color: #1c1c1c;
+                        text-decoration: none
+                    }
+
+                    .b-cs4.m-chapter-navigation .t-nav-item.active:after, .b-cs4.m-chapter-navigation .t-nav-item:hover:after {
+                        background-color: #ff06ac
+                    }
+
+                    .b-cs4 .m-ratings span {
+                        background-image: linear-gradient(0deg, #ff06ac 100%, transparent 0);
+                        border-color: #ff06ac;
+                        box-shadow: inset .02rem 0 0 .02rem #ff06ac
+                    }
+
+                    .b-cs4 .m-ratings[data-rating*=".1"] span:before {
+                        background-image: linear-gradient(-270deg, #ff06ac 10%, transparent 0)
+                    }
+
+                    .b-cs4 .m-ratings[data-rating*=".2"] span:before {
+                        background-image: linear-gradient(-270deg, #ff06ac 20%, transparent 0)
+                    }
+
+                    .b-cs4 .m-ratings[data-rating*=".3"] span:before {
+                        background-image: linear-gradient(-270deg, #ff06ac 30%, transparent 0)
+                    }
+
+                    .b-cs4 .m-ratings[data-rating*=".4"] span:before {
+                        background-image: linear-gradient(-270deg, #ff06ac 40%, transparent 0)
+                    }
+
+                    .b-cs4 .m-ratings[data-rating*=".5"] span:before {
+                        background-image: linear-gradient(-270deg, #ff06ac 50%, transparent 0)
+                    }
+
+                    .b-cs4 .m-ratings[data-rating*=".6"] span:before {
+                        background-image: linear-gradient(-270deg, #ff06ac 60%, transparent 0)
+                    }
+
+                    .b-cs4 .m-ratings[data-rating*=".7"] span:before {
+                        background-image: linear-gradient(-270deg, #ff06ac 70%, transparent 0)
+                    }
+
+                    .b-cs4 .m-ratings[data-rating*=".8"] span:before {
+                        background-image: linear-gradient(-270deg, #ff06ac 80%, transparent 0)
+                    }
+
+                    .b-cs4 .m-ratings[data-rating*=".9"] span:before {
+                        background-image: linear-gradient(-270deg, #ff06ac 90%, transparent 0)
+                    }
+
+                    .b-cs4 .m-merch-shape-5:after, .b-cs4 .m-merch-shape-6-horizontal, .b-cs4 .m-merch-shape-6-vertical {
+                        background: #de0094
+                    }
+
+                    .l-header-outer-wrapper .m-header-container.hws-header {
+                        background-color: #fff
+                    }
+
+                    .l-header-outer-wrapper .m-header-container.hws-header .m-hamburger-menu .t-icon-menu {
+                        color: #1c1c1c
+                    }
+
+                    @media (max-width: 48rem) {
+                        .l-header-outer-wrapper .m-header-container.hws-header .t-icon-header-close:after, .l-header-outer-wrapper .m-header-container.hws-header .t-icon-header-close:before {
+                            border-color: #1c1c1c
+                        }
+                    }.l-header-outer-wrapper .m-header-container.hws-header .l-logo {
+                         box-shadow: inset 9999px 9999px rgba(28, 28, 28, .05)
+                     }
+
+                    .l-header-outer-wrapper .m-header-container.hws-header .l-logo .t-program-logo-cn:after, .l-header-outer-wrapper .m-header-container.hws-header .l-logo .t-program-logo-cn:before, .l-header-outer-wrapper .m-header-container.hws-header .l-logo .t-program-logo:after, .l-header-outer-wrapper .m-header-container.hws-header .l-logo .t-program-logo:before, .l-header-outer-wrapper .m-header-container.hws-header .tile-quick-link-item {
+                        color: #1c1c1c
+                    }
+
+                    .l-header-outer-wrapper .m-header-container.hws-header .tile-quick-link-item:hover {
+                        box-shadow: inset 9999px 9999px rgba(28, 28, 28, .1)
+                    }
+
+                    .l-header-outer-wrapper .m-header-container.hws-header .tile-quick-link-item.m-highlight {
+                        box-shadow: inset 9999px 9999px rgba(28, 28, 28, .05)
+                    }
+
+                    .l-header-outer-wrapper .m-header-container.hws-header .tile-quick-link-item.m-highlight:hover {
+                        box-shadow: inset 9999px 9999px rgba(28, 28, 28, .1)
+                    }
+
+                    .l-header-outer-wrapper .m-header-container.hws-header .t-global-nav-items .m-profile-link-auth {
+                        color: #1c1c1c;
+                        box-shadow: inset 9999px 9999px rgba(28, 28, 28, .05)
+                    }
+
+                    .l-header-outer-wrapper .m-header-container.hws-header .t-global-nav-items .m-profile-link-auth:hover {
+                        box-shadow: inset 9999px 9999px rgba(28, 28, 28, .1)
+                    }
+
+                    .l-header-outer-wrapper .m-header-container.hws-header .t-global-nav-items .m-profile-link-remembered {
+                        color: #1c1c1c
+                    }
+
+                    .m-scroll-nav {
+                        border-top-color: rgba(0, 0, 0, .2)
+                    }
+
+                    .m-scroll-nav, .m-scroll-nav .l-dropdown-content {
+                        background: #fff
+                    }
+
+                    .m-scroll-nav, .m-scroll-nav .l-button-drawer, .m-scroll-nav .l-dropdown-content {
+                        color: #1c1c1c
+                    }
+
+                    .m-scroll-nav.has-drawer .l-dropdown-menu-item > .l-nav-link:after, .m-scroll-nav.has-drawer .l-nav-item > .l-nav-link:after {
+                        background-color: #ff06ac
+                    }
+
+                    @media (min-width: 37.56rem) {
+                        .m-scroll-nav .l-dropdown-menu-item:hover {
+                            border-bottom-color: #ff06ac
+                        }
+
+                        .m-scroll-nav .l-nav-item.is-active > .l-nav-link:after, .m-scroll-nav .l-nav-item:hover.is-visible > .l-nav-link:after {
+                            background-color: #ff06ac
+                        }
+                    }.mi-hsia-nav .l-nav-item.is-active > .l-nav-link:after {
+                         background-color: #ff06ac
+                     }
+
+                    @media (min-width: 48.1rem) {
+                        .mi-hsia-nav .l-nav-item:hover > .l-nav-link:after {
+                            background-color: #ff06ac
+                        }
+
+                        .mi-hsia-nav .l-dropdown-menu-item:hover {
+                            border-bottom-color: #ff06ac
+                        }
+                    }.t-bg-brand {
+                         background-color: #fff
+                     }
+
+                    .t-icon-color-brand {
+                        color: #ff06ac
+                    }
+
+                    .t-border-bottom-thin-brand, .t-border-top-print-brand, .t-border-top-thick-brand {
+                        border-color: #ff06ac
+                    }
+
+                    .t-color-brand {
+                        color: #1c1c1c
+                    }
+
+                    .t-font-brand {
+                        font-family: W Sans New, Helevtica, Arial, sans-serif;
+                        font-weight: 400;
+                        text-transform: uppercase
+                    }

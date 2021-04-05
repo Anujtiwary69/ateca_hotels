@@ -1,0 +1,251 @@
+.tile-marketing-4pack .l-media-wrapper img {
+    width: 100%;
+    height: unset !important;
+}
+
+div.tile-marketing-5050 .t-page-section-component:nth-child(1) img,
+div.tile-marketing-5050 .t-page-section-component:nth-child(2) img {
+    width: 100%;
+    height: auto !important;
+}
+
+div.is-over-text a[custom_click_track_value*="5050Tile2"] span:nth-child(2) {
+    display: none;
+}
+
+#mtAlertBanner {
+    background: #1c1c1c;
+    color: #ffffff;
+    padding: 16px 16px 16px 0;
+    font-family: proxima-nova, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+}
+
+.mtAlertBannerSpanBold {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.mtAlertBannerDetails {
+    color: #ffffff;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.mtAlertBannerCloseTippy {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none !important;
+    background: transparent;
+    border: 0;
+}
+
+button.mtAlertBannerCloseTippy:before {
+    display: inline-block;
+    content: "\e021";
+    font-size: 2rem;
+    font-family: MarriottIcons;
+    transform: rotate(45deg);
+}
+
+a.mtAlertBannerCloseTippy:hover,
+.mtAlertBannerDetails:hover {
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    #mtAlertBanner {
+        padding: 16px 0;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+.id-content-wrapper {
+    margin-top: -4px;
+}
+
+#monetate_lightbox_content_container {
+    width: 350px !important;
+    height: 500px !important;
+    top: 20px !important;
+}
+
+#mtModal {
+    background: #fff;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    height: 500px;
+}
+
+#mtModal img.mtModalHero {
+    height: 500px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+#mtModalOuterContainer {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    top: 53.75px;
+}
+
+.mtModalInnerContainer {
+    margin: auto;
+    color: #ffffff;
+    /*color: #1c1c1c;*/
+    max-width: 736px;
+    padding: 0 16px;
+}
+
+.mtModalITO {
+    text-shadow: 0 0 2px #000000;
+    /*text-shadow: 0 0 2px #ffffff;*/
+}
+
+.mtModalITOHeader {
+    font-size: 42px;
+    line-height: 1;
+    margin: 0 auto 20px;
+    width: 240px;
+    letter-spacing: 1px;
+}
+
+.mtModalITOHeader span {
+    display: block;
+}
+
+.mtModalITOSubhead {
+    margin-bottom: 6px;
+}
+
+.mtModalITOSubhead p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.mtModalITOSubhead .mtDesk {
+    display: none;
+}
+
+.mtModalITOSubhead p.mtP1,
+.mtModalITOSubhead p.mtP2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.mtModalITOSubhead p.mtP3 {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+img.mtModalLogo {
+    width: 102px;
+    margin: 180px 0 10px;
+}
+
+#mtModal .mtModalClose {
+    position: absolute;
+    top: 15px !important;
+    right: 15px !important;
+    z-index: 0;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#mtModal .mtModalClose:before {
+    font-size: 24px !important;
+}
+
+#mtModal .mtModalClose:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 375px) {
+    #monetate_lightbox_content_container {
+        width: 350px !important;
+        height: 500px !important;
+        top: 20px !important;
+    }
+}
+
+@media (min-width: 682px) and (min-height: 500px) {
+    #monetate_lightbox_content_container {
+        top: calc((100vh - 500px) / 2) !important;
+    }
+}
+
+@media (min-width: 682px) {
+    #monetate_lightbox_content_container {
+        width: 680px !important;
+        height: 500px !important;
+    }
+    #mtModal {
+        height: 500px;
+        background: #fff;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.5);
+    }
+    #mtModal img.mtModalHero {
+        height: 500px;
+        width: 680px;
+    }
+    #mtModalOuterContainer {
+        top: 3rem;
+    }
+    .mtModalInnerContainer {
+        padding: 0 32px;
+    }
+    .mtModalITOHeader {
+        font-size: 48px;
+        margin-bottom: 20px;
+        line-height: 42px;
+        width: 270px;
+    }
+    .mtModalITOSubhead {
+        margin-bottom: 20px;
+    }
+    .mtModalITOSubhead p {
+        font-size: 18px;
+    }
+    .mtModalITOSubhead p.mtP1,
+    .mtModalITOSubhead p.mtP2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .mtModalITOSubhead p.mtP3 {
+        font-size: 14px;
+    }
+    .mtModalITOSubhead .mtDesk {
+        display: block;
+    }
+    .mtModalITOSubhead .mtMob {
+        display: none;
+    }
+    img.mtModalLogo {
+        margin-top: 180px;
+        width: 128px;
+    }
+    #mtModal .mtModalClose {
+        position: absolute;
+        top: 20px !important;
+        right: 20px !important;
+        z-index: 0;
+    }
+}
+
+#mtModal {
+    visibility: visible !important;
+}
+
+#monetate_lightbox_content_container * {
+    filter: inherit;
+}
+
+</style>
