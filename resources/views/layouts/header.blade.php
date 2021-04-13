@@ -137,7 +137,7 @@
                                         class="t-icon-arrow-down t-font-xs"></span></button>
                                 <div class="l-drawer-container js-drawer-container l-width-max" aria-hidden="false">
                                     <div class="l-navbar-container l-width-max js-navbar-container">
-                                        @php $array_menu =  array('Overview','Rooms','Dining','Fitness & Spa','Meetings','Photos','Local Area','Offers','Contact Us') @endphp
+                                        @php $array_menu =  array('Overview','Rooms','Dining','Wellness & Spa','Meetings','Photos','Local Area','Offers','Contact Us') @endphp
                                         <ul class="l-navbar-content js-navbar-content" role="menubar">
                                             @foreach($array_menu as $key)
                                                 <li role="none"
