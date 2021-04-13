@@ -105,47 +105,5 @@
             </div>
         </div>
     </section>
-    <section
-        class="mi-sub-section sub-section t-bg-white l-margin-subsection-bottom-none l-margin-tile-vertical-none l-padding-tile-vertical-none l-padding-subsection-vertical-large b-cs1">
 
-        <div class="l-print-fullbleed l-container">
-            <div
-                class=" l-s-col-4 l-m-col-8 l-s-col-last l-m-col-last l-l-col-12 l-xl-col-12 l-l-col-last l-xl-col-last">
-                <div id="HwsSiteMap7db1">
-
-                    <nav class="tile-hws-site-map-footer l-print-hide b-cs1" aria-labelledby="hws-site-map-footer"
-                         data-component-id="HwsSiteMap_02_7db1" data-component-name="hwsSiteMap"
-                         data-component-endpoint="/aries-hotelinfo/v1/hwsSiteMap.comp">
-                        <div class="t-nav-heading" id="hws-site-map-footer"><a
-                                class="l-margin-top-none t-font-mll t-line-height-xxl l-left-align"
-                                href23424="/hotels/travel/dxbtp-w-dubai-the-palm/"> {{env("APP_NAME")}} </a></div>
-
-                        @php $array_menu =  array('Overview','Rooms','Dining','Fitness & Spa','Meetings','Photos','Local Area','Offers','Contact Us') @endphp
-                        <ul class="l-row" style="display: flex !important;">
-                            @foreach($array_menu as $key)
-                                <li><a class="l-margin-top-none l-left-align"
-                                       href23424="#">{{$key}} </a></li>
-                            @endforeach
-
-                        </ul>
-                    </nav>
-                </div>
-
-                <div id="BackToTopLink0d64">
-                    <a href23424="#" id="backToTop"
-                       class="tile-back-to-top t-cursor-pointer l-padding-none t-font-xl l-display-inline-block"
-                       aria-label="back to top" data-component-id="BackToTopLink_01_0d64"
-                       data-component-name="backToTopLink"
-                       data-component-endpoint="/aries-hotelinfo/v1/backToTopLink.comp"><span class="l-display-none">back to top</span><span
-                            class="t-icon back-top-arrow t-icon-arrow-up l-icon-back-to-top"
-                            aria-label="back to top"></span> </a></div>
-
-                <div id="recentlyViewedPropertyac9c">
-
-
-                </div>
-
-            </div>
-        </div>
-    </section>
 </div>

@@ -13,15 +13,7 @@ div.is-over-text a[custom_click_track_value*="5050Tile2"] span:nth-child(2) {
     display: none;
 }
 
-#mtAlertBanner {
-    background: #1c1c1c;
-    color: #ffffff;
-    padding: 16px 16px 16px 0;
-    font-family: proxima-nova, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-    position: relative;
-}
+
 
 .mtAlertBannerSpanBold {
     font-weight: bold;

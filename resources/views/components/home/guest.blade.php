@@ -3,10 +3,10 @@
 
     <div class="l-print-fullbleed l-container">
         <div class=" l-s-col-3 l-m-col-8 l-s-col-last l-m-col-last l-l-col-12 l-xl-col-12 l-l-col-last l-xl-col-last">
-            <div id="GuestRoome429">
+            <div id="GuestRoome429" style="    margin-left: -15%;">
                 <div class="tile-guest-room l-clear b-cs2" data-component-id="GuestRoom_02_e429"
                      data-component-name="guestRoom" data-component-endpoint="/aries-hotelinfo/v1/roomPoolGrid.comp"><h2
-                        class="l-center-align t-font-weight-bold t-font-size-heading">Guest Rooms</h2>
+                        class="l-center-align t-font-weight-bold t-font-size-heading" style="margin-left: 15%;">Guest Rooms</h2>
                     <div class="mi-slider l-margin-top-double">
                         <div class="l-frame">
                             <ul class="l-clear l-display-flex" style="width: 1177px;">

@@ -13,7 +13,7 @@
                                 <div
                                     class="l-l-display-inline-block is-hidden-s l-brand-logo l-margin-right-five-quarters l-header-logo-container l-l-col-3 l-xl-col-2">
                                     <a class="l-display-inline-block" href="/">
-                                        <img src="{{asset('img/site_logo.png')}}" style="max-height:72px;"
+                                        <img src="{{asset('img/site_logo.png')}}" style="max-height:90px;"
                                              alt="W Hotels"> </a></div>
                                 <div
                                     class="l-m-display-inline-block l-print-hide l-s-display-block l-hotel-content-container l-m-col-6 l-l-col-7 l-xl-col-9 ">
@@ -109,10 +109,10 @@
                                     <span class="is-visible-s is-hidden-m"> <button
                                             data-mfp-src="/"
                                             class="m-button m-button-reserve-now l-width-max js-reserve-now-link"><span
-                                                class="l-pos-relative t-icon-calendar l-icon-calendar-inline l-margin-right-half"></span>View Rates</button> </span>
+                                                class="l-pos-relative t-icon-calendar l-icon-calendar-inline l-margin-right-half"></span>Book Now</button> </span>
                                     <span class="is-hidden-s is-visible-m"> <button
                                             data-mfp-src="/"
-                                            class="m-button m-button-reserve-now l-width-max js-reserve-now-link">View Rates</button> </span>
+                                            class="m-button m-button-reserve-now l-width-max js-reserve-now-link">Book Now</button> </span>
                                 </div>
                                 <div class="is-hidden">
                                     <span>https://www.marriott.com/hotels/maps/travel/dxbtp-w-dubai-the-palm/?directPageRequest=true</span>

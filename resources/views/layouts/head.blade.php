@@ -1,6 +1,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+    @if(env('APP_ENV')=="production")
+        @php $extra =  "/public/" @endphp
+    @else
+        @php $extra =  "" @endphp
+        @endif
 
 
     <script  src="{{asset($extra.'/js/marriottCommon.js')}}"></script>
