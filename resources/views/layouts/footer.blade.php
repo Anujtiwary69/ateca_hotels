@@ -1,37 +1,4 @@
-<center>
-    <section class="page-section booking_form main-container-1" id="" >
-        <div class="container">
-            <h4 class="">Book Now</h4>
-            <div class="row pt-5 pb-5  pl-5 ml-5">
-
-
-                <div class="col-sm-4 col-lg-4 col-md-4">
-                    <label class="search-title">DESTINATIONS</label>
-                    <input type="text" class="form-control" autocomplete="off" style=" color: #313538 !important;
-               font-size: 16px !important;" placeholder="WHERE TO?" name="where_to">
-                    <ul class="list-group" id="list-hotels" style="display:none;">
-                        <li class="list-group-item" style="color:black;">Leva Mazaya Centre Dubai</li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-lg-4 col-md-4">
-                    <label class="search-title">DATES</label>
-                    <label class="search-title float-right night_count" id="night_count"> 1 NIGHT</label>
-                    <input class="form-control" type="text" name="dates" style=" color: #313538 !important;
-               font-size: 16px !important;" autocomplete="off" placeholder="< 13, Apr 2021> | < 14, Apr 2021 >" onkeydown="return false">
-                </div>
-                <div class="col-sm-4 col-lg-4 col-md-4" style="display: flex;
-
-
-    align-items: center;">
-
-                    <label class="search-title">&nbsp;</label>
-                    <div class="l-xs-col-4 l-xl-col-4 l-xl-last-col l-hsearch-find l-find-top js-hform-fields"> <span class="is-visible-s is-hidden-m"> <button title="View Rates" data-analytics="{'location':'searchForm'}" class="analytics-click js-is-roomkey-enabled m-button m-button-primary" type="submit"> <span class="l-pos-relative t-icon-calendar l-icon-calendar-inline l-margin-right-half"></span>View Rates </button> </span> <span class="is-hidden-s is-visible-m"><button title="" data-analytics="{'location':'searchForm'}" class="analytics-click js-is-roomkey-enabled m-button m-button-primary " type="submit" style="background: #de0094;    margin-top: 24px;" > Book Now </button></span> </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-</center>
+@include('layouts.booking_form')
 
 <section
     class="mi-sub-section sub-section t-bg-white l-margin-subsection-bottom-none l-margin-tile-vertical-none l-padding-tile-vertical-none l-padding-subsection-vertical-large b-cs1">
@@ -48,7 +15,7 @@
                             class="l-margin-top-none t-font-mll t-line-height-xxl l-left-align"
                             href="/"> {{env("APP_NAME")}} </a></div>
 
-                    @php $array_menu =  array('Overview','Rooms','Dining','Fitness & Spa','Meetings','Photos','Local Area','Offers','Contact Us') @endphp
+                    @php $array_menu =  array('Overview','Rooms','Dining','Wellness & Spa','Meetings','Photos','Local Area','Offers','Contact Us') @endphp
                     <ul class="l-row" style="display: flex !important;">
                         @foreach($array_menu as $key)
                             <li><a class="l-margin-top-none l-left-align"

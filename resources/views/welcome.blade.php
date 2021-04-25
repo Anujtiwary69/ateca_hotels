@@ -9,3 +9,6 @@
 
 
 @endsection
+@section('script')
+
+@endsection

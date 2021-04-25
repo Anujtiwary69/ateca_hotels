@@ -120,31 +120,8 @@
                     </div>
                 </div>
             </div>
-            @include('layouts.menus')
-            <div
-                class="mi-sub-section bleed-sub-section l-margin-subsection-bottom-none l-margin-tile-vertical-none l-padding-tile-vertical-none l-padding-subsection-vertical-none"
-                style="margin-top: 0px;">
-                <div id="SubPageHeroImage731e">
+        @include('layouts.menus')
 
-                    <div class="tile-subpage-hero-image l-pos-relative " data-component-id="SubPageHeroImage_01_731e"
-                         data-component-name="subPageHeroImage"
-                         data-component-endpoint="/aries-hotelinfo/v1/subPageHeroImage.comp">
-                        <a href="#" class="js-gallery-viewer mi-popover"
-                           data-mfp-src="/hotels/photo-tours.mi?marshaCode=dxbtp&amp;pageID=">
-                            <picture class="l-display-block aspect-ratio-5by2 mi-lazyLoadImage ">
-
-                                <img alt="Pool" class="l-display-block"
-                                     src="{{asset('img/building1.jpg')}}">
-                            </picture>
-                            <div class="l-container"><span class="l-photoGallery-icon is-visible-s is-hidden-m"><span
-                                        class="t-icon-gallery l-pos-absolute"></span><span class="m-position-offscreen">View Photos</span></span>
-
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>

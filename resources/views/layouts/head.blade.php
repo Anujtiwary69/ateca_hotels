@@ -62,6 +62,7 @@
     <link rel="stylesheet" class="component-tag" type="text/css" href="{{asset($extra.'/css/messageResource.css')}}">
     <link rel="stylesheet" class="component-tag" type="text/css" href="{{asset($extra.'/css/sessionTimeOut.css')}}">
     <link rel="stylesheet" class="component-tag" type="text/css" href="{{asset($extra.'/css/atecahotels.css')}}?rand={{ rand() }}">
+    <link rel="stylesheet" class="component-tag" type="text/css" href="{{asset($extra.'/css/dining.css')}}?rand={{ rand() }}">
 
     <script type="text/javascript" charset="utf-8" async="" src="{{asset($extra.'/js/mi-carousel.js')}}"></script>
     <script type="text/javascript" charset="utf-8" async="" src="{{asset($extra.'/js/mi-slider.js')}}"></script>

@@ -6831,8 +6831,8 @@ html[lang^=ru] .m-button {
 
 .m-button-primary,
 .m-button-primary-medium {
-    background-color: #444054;
-    border-color: #444054
+    background-color: #ff05ac;
+    border-color: #ff05ac
 }
 
 .m-button-primary-medium:hover,
@@ -15746,7 +15746,7 @@ html[dir=rtl] .l-header-outer-wrapper .m-header-container .l-logo .logo-icon {
 .m-scroll-nav .l-dropdown-container {
     display: none;
     position: absolute;
-    top: 3.375rem;
+    top: 1.375rem;
     left: 0;
     width: 100%
 }
